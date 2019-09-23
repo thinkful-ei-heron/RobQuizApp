@@ -1,2 +1,2 @@
 # RobQuizApp
-This is a demo for my quiz app.
+This is my quiz app demo.
