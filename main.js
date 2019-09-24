@@ -259,7 +259,7 @@ function restartQuiz() {
     });
 } 
 
-//runs the functions
+//runs functions
 function makeQuiz() {
   startQuiz();
   generateQuestion();
