@@ -5,6 +5,7 @@
 
 body {
     font-family: Favorit, Arial, Helvetica, sans-serif;
+    background-color:#000;
 }
 
 .main {
@@ -13,22 +14,85 @@ body {
     margin-bottom: 50px;
     max-width: 800px;
     /* height: 300px; */
-    border: 1px solid black;
+    background-color:#aaa;
+
+    border: solid black 1px;
+    border-radius: 10px;
 }
 
 .main h1, h3 {
     text-align: center;
 }
 
-.inner {
+.main h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main ul {
     text-align: center;
-    height: 175px;
-    /*border: 2px solid green; */
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-.inner button {
+.main li {
+    display: inline-block;
+    list-style: none;
+}
+
+.middle {
+    text-align: center;
+    height: 225px;
+    background-color: #fff;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.middle h3 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.middle button {
+    margin-top: 20px;
+}
+
+button {
     background-color: #f44336;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
 }
 
+.final {
+    text-align: center;
+  }
+
+ .next-button {
+     margin-top: 15px;
+ }
+
+ .submitButton {
+     margin-top: 15px;
+ }
+
+ form {
+    padding-top:20px;
+    padding-bottom:20px;
+ }
+
+ legend {
+     font-size: 20px;
+    font-weight:bold;
+ }
+
+  fieldset {
+    border: 0;
+  }
+
+  .fieldSelector {
+    float:left;
+  }

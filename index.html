@@ -8,18 +8,31 @@
     <title>HTML Quiz App</title>
 </head>
 
-<body>
-    <div class="main">
-        <h1>Welcome to the HTML Quiz!</h1>
-        <h3>Question: 0/10 Score: 0</h3>
-
-        <div class="inner" aria-live="polite">
-        <fieldset>
-        <h3>This quiz will assess what you know about Hypertext Markup Language</h3>
-        <button type="button" id="start">Let's Go!</button>
-        </fieldset>
-        </div>
-    </div>
-
+        <body>
+            <section class="main">
+                    <h1><a href="index.html">Welcome to the HTML Quiz!</a></h1>
+                    <section>
+                            <ul>
+                              <li>Question:
+                                <span class="questionCounter">0</span>/10</li>
+                              <li>Score:
+                                <span class="scoreCounter">0</span>
+                              </li>
+                            </ul>
+                    </section>
+                    <section class="middle" aria-live="polite">
+                        <section class="startQuiz box">
+                            <h3>This quiz will assess what you know about Hypertext Markup Language</h3>
+                            <button type="button" class="startButton button">Let's Go!</button>
+                    </section>
+                        <section class="questionBox box altBox">
+                            </section>
+                                <section class="response box altBox"></section>
+                                <section class="final box altBox"></section>
+                        </section>
+                    </section>
+                </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
